@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tasky Energy | Açaí</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="description" content="O melhor jeito de pedir seu açaí!! faça seu pedido agora">
+	<meta name="author" content="João vitor gentil da silva">
+	<meta name="Keywords" content="açaí,Açaí,vercel,joao vitor,threejs, three-js,programação,css,html,javascript,python,js,php,acessar,algoritmo,algoritmos,ambiente digital,ambientes virtuais,animações,animações,digitais,aplicativo,avanços tecnológicos">
+	<meta name="robots" content="index,follow">
+	<link rel="shortcut icon" type="image/jpg" href="./img/acai.png" />
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+	<div class="menu">
+		<ul class="icones">
+			<li style="--clr:#ffffff">
+				<a href="#iphones" id="link3" class="ativo">
+					<i class="bi bi-cup-straw"></i>
+					<span>Produtos</span>
+				</a>
+			</li>
+			<li style="--clr:#ffffff">
+				<a href="#Sobre" id="link2">
+					<i class="bi bi-info-circle"></i>
+					<span>Sobre</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="car-shop" onclick="carrinho()">
+		<i class="bi bi-basket"></i>
+		<span class="quantity" id="cart-plus">0</span>
+	</div>
+
+	<div class="icon">
+		<img src="./img/acai.png" alt="">
+	</div>
+	<section class="iphones" id="iphones">
+		<div class="item-container">
+			<div class="category-header" id="category-header">
+				<div class="list-card">
+					<a href="#CoposProntos">
+						<img src="./img/copo da sara.jpg" alt="">
+						Copos Prontos
+					</a>
+				</div>
+
+				<div class="list-card">
+					<a href="#ParteEspeciais">
+						<img src="./img/barca.jpg" alt="">
+						Especiais
+					</a>
+				</div>
+
+				<div class="list-card">
+					<a href="#ParteMontar">
+						<img src="./img/copo500.jpg" alt="">
+						Montar
+					</a>
+				</div>
+
+				<div class="list-card">
+					<a href="#ParteAdicionais">
+						<img src="./img/brigadeiro .jpg" alt="">
+						Adicionais
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="title" id="CoposProntos"><h1>Copos Prontos</h1></div>
+		<div class="btnsCopos">
+			<button id="300">Copo 300ML</button>
+			<button id="500">Copo 500ML</button>
+			<button id="700">Copo 700ML</button>
+			<div id="compro"></div>
+		</div>
+
+		<div class="coposContainer">
+			<div id="Copo" class="iphone ativo"></div>
+			<div id="copo500"></div>
+			<div id="copo700"></div>
+		</div>
+
+		<div class="title" id="ParteEspeciais">
+			<h1>Especiais</h1>
+		</div>
+		<div class="ipad" id="Especial"></div>
+
+		<div class="title" id="ParteMontar">
+			<h1>Monte seu copo</h1>
+		</div>
+		<div class="Montar" id="Montar"></div>
+
+		<div class="title" id="ParteAdicionais">
+			<h1>Adicionais</h1>
+		</div>
+		<div class="Mac" id="Adicionais"></div>
+
+
+		<div class="Comprados" id="Comprados">
+			<div id="table-body"></div>
+			<div class="totalItens">
+				<p id="total-item">Total itens 0</p>
+				<p id="total-price">Preço total: 0,00 R$</p>
+				<button class="btnFinal" onclick="abrir()">Avançar</button>
+			</div>
+		</div>
+		<div class="endereco"></div>
+	</section>
+	
+	<section id="Sobre" class="Sobre">
+		<div class="title">
+			<h1>Energy Açaí</h1>
+		</div>
+		<div class="redeSociais">
+			<div class="iconSobre">
+				<img src="./img/acai.png" alt="">
+			</div>
+			<div>
+				<a href="https://wa.me/5519999857719/?text=Peça seu açaí!! Cardapio Online%0A%0Ahttps://desafiogamer.github.io/Tasky-A-ai/"><i class="bi bi-whatsapp"></i></a>
+				<a href="https://www.instagram.com/tastyenergyacai?igsh=MWR6anpoY3kxZWo5Zw==" target="_blank"><i class="bi bi-instagram"></i></a>
+				<a href="https://www.facebook.com/EnergyAcaiConchal?mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook"></i></a>
+			</div>
+		</div>
+
+		<div class="informacoes">
+			<i class="bi bi-geo-alt-fill"></i>
+			<p>Rua Conselheiro Rodrigues Alves - Jardim icaraí, Conchal - SP, 13835-005, Brasil</p>
+		</div>
+
+		<div class="funcionamento">
+			<h2>Horário de funcionamento</h2>
+
+			<div class="horario">
+				<p>Segunda-feira</p>
+				<span><i class="bi bi-alarm"></i> 13:00 - 22:00</span>
+			</div>
+			<div class="horario">
+				<p>Terça-feira</p>
+				<span><i class="bi bi-alarm"></i> 13:00 - 22:00</span>
+			</div>
+			<div class="horario">
+				<p>Quarta-feira</p>
+				<span><i class="bi bi-alarm"></i> 13:00 - 22:00</span>
+			</div>
+			<div class="horario">
+				<p>Quinta-feira</p>
+				<span><i class="bi bi-alarm"></i> 13:00 - 22:00</span>
+			</div>
+			<div class="horario">
+				<p>Sexta-feira</p>
+				<span><i class="bi bi-alarm"></i> 13:00 - 22:00</span>
+			</div>
+			<div class="horario">
+				<p>Sabado</p>
+				<span><i class="bi bi-alarm"></i> 13:00 - 22:00</span>
+			</div>
+			<div class="horario">
+				<p>Domingo</p>
+				<span><i class="bi bi-alarm"></i> 13:00 - 22:00</span>
+			</div>
+		</div>
+	</section>
+
+	<script src="./js/menu.js"></script>
+	<script src="./js/lista-produtos.js" type="module"></script>
+</body>
+</html>
