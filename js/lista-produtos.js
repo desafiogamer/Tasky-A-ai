@@ -451,18 +451,18 @@ Seu pedido está sendo processado%0A
 %0A
 *Tipo de serviço: ${valueselector}*%0A
 %0A
-Produtos:%0A
+*Produtos:*%0A
 ${valores}%0A
 %0A
+*Endereço:*%0A
 Rua: ${rua}%0A
 Bairro: ${Bairro}%0A
 Numero da casa ${Numero}%0A
 %0A
-Tipo de pagamento: ${valuesect}%0A
-%0A
+*Tipo de pagamento:* ${valuesect}%0A
 Troco pra: ${troco}%0A
 %0A
-${preco}%0A
+*${preco}*%0A
 %0A
 %0A
 Obrigado pela preferência, se precisar de algo é só chamar!`
