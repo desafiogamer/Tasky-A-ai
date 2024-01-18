@@ -460,7 +460,7 @@ Numero da casa ${Numero}%0A
 %0A
 Tipo de pagamento: ${valuesect}%0A
 %0A
-Troco pra: ${troco},00 R$%0A
+Troco pra: ${troco}%0A
 %0A
 ${preco}%0A
 %0A
@@ -506,7 +506,9 @@ document.querySelector('#enviar').addEventListener('click', async function vamos
     
     Menssagemwhatt(rua, Bairro, Numero, valuesect, valueselector, dataAtual, horarioAtual, valores, preco, troco)
 
-    //location.reload();
+    setTimeout(function() {
+      location.reload();
+    }, 500);
     
 })
 
