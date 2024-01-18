@@ -36,7 +36,7 @@ function displayItems() {
             <span>Troco para:</span>
             <input class="troco" type="text" placeholder="Caso for dinheiro">
         </div>
-        <a id="enviar" target="_blank">Enviar Pedido</a>
+        <a id="enviar">Enviar Pedido</a>
         `
 
     const iphonesItems = produtos.filter((item) => item.category == 'Copo');
