@@ -506,9 +506,7 @@ document.querySelector('#enviar').addEventListener('click', async function vamos
     
     Menssagemwhatt(rua, Bairro, Numero, valuesect, valueselector, dataAtual, horarioAtual, valores, preco, troco)
 
-    
-    location.reload();
-    
+    //location.reload();
     
 })
 
