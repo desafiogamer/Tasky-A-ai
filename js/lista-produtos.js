@@ -480,12 +480,12 @@ function totalAmount() {
 
 function Menssagemwhatt(rua, Bairro, Numero, valuesect, valueselector, dataAtual, horarioAtual, valores, preco, troco, FreteConfrimacao){
 
-    document.querySelector('#enviar').setAttribute('href', `https://wa.me/5519999857719/?text=${[`
+    document.querySelector('#enviar').setAttribute('href', `https://wa.me/551999322936/?text=${[`
     Olá, Tudo bem ?%0A
     %0A
 ${dataAtual} - ${horarioAtual}%0A
 %0A
-*Seu pedido está sendo processado%0A*
+*Seu pedido está sendo processado*%0A
 %0A
 *Tipo de serviço: ${valueselector}*%0A
 %0A
