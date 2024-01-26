@@ -481,9 +481,9 @@ function totalAmount() {
 function Menssagemwhatt(rua, Bairro, Numero, valuesect, valueselector, dataAtual, horarioAtual, valores, preco, troco, FreteConfrimacao){
 
     document.querySelector('#enviar').setAttribute('href', `https://wa.me/5519993322936/?text=${[`
-    Olá, Tudo bem ?%0A
+    Olá, Tudo bem ?😊%0A
     %0A
-${dataAtual} - ${horarioAtual}%0A
+📅${dataAtual} - ⏰${horarioAtual}%0A
 %0A
 *Seu pedido está sendo processado*%0A
 %0A
@@ -495,16 +495,16 @@ ${valores}%0A
 *Endereço:*%0A
 Rua: ${rua}%0A
 Bairro: ${Bairro}%0A
-Numero da casa ${Numero}%0A
+🏠Numero da casa ${Numero}%0A
 %0A
 *Tipo de pagamento:* ${valuesect}%0A
 Frete: ${FreteConfrimacao}%0A
 Troco para: ${troco}%0A
 %0A
-*${preco}*%0A
+💵*${preco}*%0A
 %0A
 %0A
-Obrigado pela preferência, se precisar de algo é só chamar!`
+Obrigado pela preferência, se precisar de algo é só chamar!😊`
     ]}`)
 }
 
@@ -556,7 +556,7 @@ document.querySelector('#enviar').addEventListener('click', async function vamos
     var horas = data.getHours()
     var minutos = data.getMinutes()
     var horarioAtual = `${horas}:${minutos}`
-    var FreteConfrimacao = cpValidacao[0]
+    var FreteConfrimacao = cpValidacao.pop()
     
     Menssagemwhatt(rua, Bairro, Numero, valuesect, valueselector, dataAtual, horarioAtual, valores, preco, troco, FreteConfrimacao)
     
