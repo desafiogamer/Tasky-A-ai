@@ -298,15 +298,6 @@ var produtos = [
         price: 4
     },
     {
-        id: 22,
-        nome: 'Creme de Diamante Negro',
-        descricao: 'CHOCOLATE',
-        img: 'img/creme de diamante negro.jpg',
-        category: 'Adicionais',
-        quantity: 1,
-        price: 5
-    },
-    {
         id: 25,
         nome: 'Kit Kat',
         descricao: 'CHOCOLATE',
