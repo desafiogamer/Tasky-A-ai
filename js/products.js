@@ -528,7 +528,7 @@ var produtos = [
         nome: 'Trufado 300ML',
         category: 'Copo',
         descricao: 'leite condensado, nutella, morango, kinder bueno',
-        price: 23,
+        price: 25,
         img: 'img/trufado.jpg',
         quantity: 1
     },
@@ -537,7 +537,7 @@ var produtos = [
         nome: 'Trufado 500ML',
         category: 'Copo500ml',
         descricao: 'leite condensado, nutella, morango, kinder bueno',
-        price: 25,
+        price: 27,
         img: 'img/trufado.jpg',
         quantity: 1
     },
@@ -546,7 +546,7 @@ var produtos = [
         nome: 'Trufado 700ML',
         category: 'Copo700ml',
         descricao: 'leite condensado, nutella, morango, kinder bueno',
-        price: 27,
+        price: 29,
         img: 'img/trufado.jpg',
         quantity: 1
     },
